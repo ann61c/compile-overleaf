@@ -1,5 +1,5 @@
 const token = location.hash.substr(1);
-const projectUrl = 'https://github.com/NeverBehave/compile-overleaf';
+const projectUrl = 'https://github.com/ann61c/compile-overleaf';
 const api = '/api/read?token=';
 
 function onFetchError(e) {
@@ -28,7 +28,7 @@ function onFetchSuccess(e, token) {
     frame.id = 'pdf-iframe';
     $('#main-frame').append(frame);
     // Download Button
-    console.log(e)
+    console.log(e);
     $('#download-button')
         .attr('data-filename', e.name + '.pdf')
         .attr('data-link', e.link.pdf)
