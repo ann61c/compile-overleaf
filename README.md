@@ -10,8 +10,8 @@ generated link can be directly download without cookie/token verification.
 const compileOverleaf = require('compile-overleaf');
 
 try {
-    // https://overleaf.com/read/fjspyrhfrsgc
-    const token = 'fjspyrhfrsgc';
+    // https://overleaf.com/read/bpzztvkfcqgy
+    const token = 'bpzztvkfcqgy';
     const compiled = await compileOverleaf(token);
 
     /**
@@ -32,12 +32,15 @@ try {
 
 ## Online Demo
 
-`https://compile-overleaf.now.sh/#{token}`
+`https://resume.lyc.sh/#{token}`
 
-> e.g. <https://compile-overleaf.now.sh/#fjspyrhfrsgc>
+> e.g. <https://resume.lyc.sh/#bpzztvkfcqgy>
 
 ### API
 
-`https://compile-overleaf.now.sh/api/read?token={token}`
+`https://resume.lyc.sh/api/read?token={token}`
 
-> e.g. <https://compile-overleaf.now.sh/api/read?token=fjspyrhfrsgc>
+> e.g. <https://resume.lyc.sh/api/read?token=bpzztvkfcqgy>
+
+Original project: <https://github.com/NeverBehave/compile-overleaf>
+Original Author: [NeverBehave](https://github.com/NeverBehave)
